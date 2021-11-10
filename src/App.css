@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.cards {
+  width: 235px;
+  height: 250px;
+  margin: 10px 10px 10px 10px;
+  background-color: lightgray;
+  /* padding: 15px 10px 10px; */
+  display: inline-block;
+  flex-direction: row;
+  border-radius: 0px 20px 0px 20px;
+  color: white;
+  transition: 0.3s;
+}
+
+.negocinho {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-items: center; */
+  /* align-items: center; */
+  justify-content: center;
+}
+
+H1 {
+  color: white;
+  text-decoration: underline white;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+#busca {
+  height: 20px;
+  width: 205px;
+}
+button {
+  height: 30px;
+  margin: 5px;
+  width: 100px;
+  border-radius: 0px 10px 0px 10px;
+  color: white;
+  background-color: black;
+  border: solid 1.5px white;
+  box-shadow: 4px 4px 4px 2px black;
+}
+
+.fotopoke {
+  height: 120px;
+}
+
+.fotoinfopoke {
+  height: 380px;
+}
+.title {
+  color: white;
+  height: 10px;
+}
+
+.divbotao {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.areaInfo {
+  background-color: black;
+  border: solid 1.5px white;
+  box-shadow: 10px 10px 10px 5px black;
+  border-radius: 0px 25px 0px 25px;
+  color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 750px;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.informacoes{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+body {
+  background-color: #282c34;
+}
+
+li {
+  border: solid 1.5px white;
+  box-shadow: 10px 10px 10px 5px black;
+  cursor: pointer;
+}
+/* li:hover {
+  background-color: black !important;
+} */
+
+table{
+ border-radius: 0px 15px 0px 15px;
+ border-color:solid black;
+ justify-items: left;
+}
